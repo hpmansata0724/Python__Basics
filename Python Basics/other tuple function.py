@@ -1,0 +1,25 @@
+thistuple=("apple",)
+print(type(thistuple))
+
+thistuple=("apple")
+print(type(thistuple))
+x=("apple","banana","cherry")
+print(x)
+y=list(x)
+y[1]="kiwi"
+x=tuple(y)
+print("After updation:",x)
+thistuple1=("apple","banana","cherry")
+print("Thistuple1:",thistuple1)
+y1=list(thistuple1)
+thistuple1=tuple(y1)
+print("After insertion:",thistuple1)
+y1=list(thistuple1)
+y1.append("orange")
+thistuple1=tuple(y1)
+print("After Insertion:",thistuple1)
+my_tuple=('a','p','p','i','e')
+
+print('g' not in my_tuple)
+for name in('john','kate'):
+    print("Hello",name)
